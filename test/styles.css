@@ -1,0 +1,24 @@
+#hello {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#hello span {
+    font-family: emoji;
+    font-size: 2em;
+    color: #4c4c4c;
+}
+code {
+    width: 70%;
+    display: block;
+    margin: 10% auto;
+    white-space: pre-wrap;
+    background: #ddd;
+}
+
+h3 {
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+<head>
+    <title>CORS TEST</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.4/axios.min.js" integrity="sha512-lTLt+W7MrmDfKam+r3D2LURu0F47a3QaW5nF0c6Hl0JDZ57ruei+ovbg7BrZ+0bjVJ5YgzsAWE+RreERbpPE1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js" ></script>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<code>
+    fetch("http://mob-stc.jawwy.tv/", {
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-language": "en-US,en;q=0.9",
+      "cache-control": "no-cache",
+      "nossl": "true",
+      "pragma": "no-cache"
+    },
+    "referrer": "http://localhost:3001/",
+    "referrerPolicy": "strict-origin-when-cross-origin",
+    "body": null,
+    "method": "GET",
+    "mode": "cors",
+    "credentials": "omit"
+  })
+</code>
+<h3 id="status">FETCHING...</h3>
+</body>
